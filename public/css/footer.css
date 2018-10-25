@@ -1,0 +1,23 @@
+footer.bg{
+  width:100%;
+  background: #fafafa;
+  height: 265px;
+  text-align: center;
+  font-size: 12px;
+}
+footer.bg>div{
+  width: 1200px;
+  margin: 0 auto;
+}
+footer.bg>div>div{
+  padding:8px 0 0 0;
+}
+footer.bg p{
+  color:#a6a6a6;
+  height: 20px;
+}
+footer.bg span{
+  font-size:12px; 
+  text-align: center;
+  color:#666666;
+}
