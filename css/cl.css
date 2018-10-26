@@ -1,0 +1,19 @@
+body,header,footer,section,nav,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,a,span,i,b,input,button{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px;
+  color:#1a1a1a;
+}
+a,a:hover{
+  text-decoration: none;
+  color:#1a1a1a;
+}
+.clear::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+ul{
+  list-style: none;
+}
