@@ -23,6 +23,9 @@ section>div.top>div.search>label{
   height: 40px;
   width:40px;
   background: #bf2c24;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
 }
 section>div.top>div.bookstore{
   border:1px solid #dbdbdb;
@@ -91,6 +94,7 @@ section>div.cursor>ul>li{
   float: left;
   width: 50%;
   height: 60px;
+  padding-left: 25px;
 }
 section>div.cursor>ul>li span,section>div.cursor>ul>li img{
   transition: all .1s linear;
@@ -206,6 +210,9 @@ section>div.tuijian>ul{
 }
 section>div.tuijian>ul>li{
   padding:10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 section>div.tuijian>ul>li:first-child{
   font-size: 18px;
@@ -220,6 +227,9 @@ section>div.tuijian>ul.mid{
 section>div.tuijian>ul.mid>li:nth-child(2)>div{
   float: left;
   width: 50%;
+}
+section>div.tuijian>ul.mid>li:nth-child(2)>div:first-child{
+  text-align: center
 }
 section>div.tuijian>ul.mid>li:nth-child(2)>div>a{
   display: block;
@@ -348,4 +358,26 @@ section>div.free>ul>li>del{
   display: block;
   color: #999999;
   padding-top: 10px;
+}
+div.sel{
+  width: 1200px;
+  height: 88px;
+  background: #F2F2F2;
+  margin: 0 auto;
+}
+div.sel>select{
+  margin: 20px 15px;
+  padding: 10px;
+}
+div.sel>span{
+  padding: 0 20px 0 40px;
+}
+div.sel>a{
+  display: inline-block;
+  height: 39px;
+  width:100px;
+  background: #bf2c24;
+  color: #fff;
+  line-height: 39px;
+  text-align: center;
 }
